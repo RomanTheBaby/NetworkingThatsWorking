@@ -51,9 +51,9 @@
 		FEC643782C68528B000BD1CC /* NetworkingThatsWorking */ = {
 			isa = PBXGroup;
 			children = (
-				FEC643792C68528B000BD1CC /* NetworkingThatsWorkingApp.swift */,
-				FEC6437B2C68528B000BD1CC /* ContentView.swift */,
-				FEC6437D2C68528C000BD1CC /* Assets.xcassets */,
+				FEC643872C6852A8000BD1CC /* App */,
+				FEC643882C6852AE000BD1CC /* Views */,
+				FEC6438A2C6852BA000BD1CC /* Library */,
 				FEC6437F2C68528C000BD1CC /* Preview Content */,
 			);
 			path = NetworkingThatsWorking;
@@ -65,6 +65,38 @@
 				FEC643802C68528C000BD1CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC643872C6852A8000BD1CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FEC643792C68528B000BD1CC /* NetworkingThatsWorkingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FEC643882C6852AE000BD1CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEC6437B2C68528B000BD1CC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC643892C6852B6000BD1CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEC6437D2C68528C000BD1CC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEC6438A2C6852BA000BD1CC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FEC643892C6852B6000BD1CC /* Resources */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
